@@ -1,4 +1,4 @@
-package operadoresJava;
+package temauno.ejercicios.operadoresJava;
 
 import java.util.Scanner;
 
