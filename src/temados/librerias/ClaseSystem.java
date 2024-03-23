@@ -7,7 +7,7 @@ public class ClaseSystem {
 		System.out.println(System.getProperty("java.version"));
 		//se obtiene y muestra el símbolo separador de carpetas
 		System.out.println(System.getProperty("file.separator"));
-		//se obtiene y muestra el instante actual en milisegundos
+		//se obtiene y muestra el instante actual en nanosegundos
 		System.out.println(System.nanoTime());
 		//se obtienen y muestran todas las propiedades del sistema
 		System.out.println(System.getProperties());	
