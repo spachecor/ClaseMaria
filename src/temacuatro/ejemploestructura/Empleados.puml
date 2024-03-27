@@ -1,0 +1,30 @@
+@startuml
+Empleado <|-- Electricista
+
+
+class Empleado{
+-dni: String
+-nombre: String
+-edad: int
+-sueldoBase: double
+-sueldoFinal:double
+-gafas: boolean
+-{static}contador:int
+
+#Empleado(dni: String, nombre: String, edad: int):void
+#Empleado(dni: String, nombre: String, edad: int, gafas: boolean):void
++{static}getContador():int
++getDni(): String
++setNombre(nuevoNombre: String): void
++setGafas(gafas: boolean): void
++getSueldoBase(): double
++setSuelFinal(sueldo: double) :void
+}
+class Electricista{
+-PLUS_PELIGROSIDAD: double
+
++Electricista(dni: String, nombre: String, edad: int):void
++Electricista(dni: String, nombre: String, edad: int, gafas: boolean):void
+}
+
+@enduml
