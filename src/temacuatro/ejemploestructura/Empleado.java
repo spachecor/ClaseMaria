@@ -1,5 +1,10 @@
 package temacuatro.ejemploestructura;
 
+/**
+ * Clase empleado que es el molde del comportamiento y propiedades del empleado.
+ * @author Selene
+ * @version 1.0
+ */
 public class Empleado {//Cabecera de identificación de la clase
     //Campos o atributos - propiedades del objeto
     private String dni, nombre;
@@ -18,6 +23,13 @@ public class Empleado {//Cabecera de identificación de la clase
     //Métodos (incluido el constructor)
     /*El constructor es la forma en la que se crea el objeto - El constructor es lo segundo que se ejecuta cuando se ejecuta el programa
     * OBLIGATORIO - tiene el mismo nombre que la clase*/
+
+    /**
+     * 
+     * @param dni
+     * @param nombre
+     * @param edad
+     */
     protected Empleado(String dni, String nombre, int edad){
         this.dni=dni;
         this.nombre=nombre;
