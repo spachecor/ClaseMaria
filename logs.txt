@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-03-28T19:30:01.219042800Z</date>
+  <millis>1711654201219</millis>
+  <nanos>42800</nanos>
+  <sequence>2</sequence>
+  <logger>temattres.loggerexplicacion.ManejadoresPropios</logger>
+  <level>INFO</level>
+  <class>temattres.loggerexplicacion.ManejadoresPropios</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Soy un logger info</message>
+</record>
+<record>
+  <date>2024-03-28T19:30:01.221042100Z</date>
+  <millis>1711654201221</millis>
+  <nanos>42100</nanos>
+  <sequence>3</sequence>
+  <logger>temattres.loggerexplicacion.ManejadoresPropios</logger>
+  <level>SEVERE</level>
+  <class>temattres.loggerexplicacion.ManejadoresPropios</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Soy severe</message>
+</record>
+</log>

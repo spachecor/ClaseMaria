@@ -1,4 +1,4 @@
-package temattres;
+package temattres.loggerexplicacion;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;

@@ -20,6 +20,7 @@ public class LanzamientoExpcepcionesNoControladas {
             obj.aniadir(7);//VA A SALTAR EXCEPCION PORQUE EL ARRAY MIDE 3 E INTENTO METER 4
         }catch(RuntimeException e){//CAPTURA LA EXCEPCION
             System.out.println("Te has colao");//NO DETIENE EL PROGRAMA, HACE LO QUE CONTENGA EL CATCH Y CONTINÚA
+            e.printStackTrace();
         }finally {//HAYA O NO EXCEPCION, SÍ O SI REALIZA EL CÓDIGO DEL FINALLY
             for (int i = 0; i < LanzamientoExpcepcionesNoControladas.numeros.length; i++) {
                 System.out.println(numeros[i]);
